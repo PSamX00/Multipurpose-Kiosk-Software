@@ -1,0 +1,45 @@
+:root{
+    /*loginButtonColos variables*/
+    --loginOldStudentPage-btn-bgcolor:red;
+    --loginOldStudentPage-btn-color:white;
+    /*LoginButton Dimensons variables*/
+    --loginOldStudentPage-btn-height:60px;
+    --loginOldStudentPage-btn-width:120px;
+    /*login form variables*/
+    --loginOldStudentPage-form-height:300px;
+    --loginOldStudentPage-form-width:200p;
+    /*.loginOldStudentFormDiv variables*/
+    --loginOldStudentFormDiv-height:300px;
+}
+
+/*dimensions*/
+
+/* .loginOldStudentFormDiv{
+    width: var(--loginOldStudentPage-form-width);
+    height: var(--loginOldStudentPage-form-height);
+}
+ */
+
+.oldStudentLoginButton{
+    height: var(--loginOldStudentPage-btn-height);
+    width: var(--loginOldStudentPage-btn-width);
+}
+
+.loginOldStudentFormDiv{
+    height: var(--loginOldStudentFormDiv-height);
+    
+}
+
+
+
+
+/*Positioning*/
+.loginOldStudentFormDiv{
+    margin-top: 12.5% ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    ;
+}
+

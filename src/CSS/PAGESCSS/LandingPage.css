@@ -1,0 +1,91 @@
+:root{
+    
+    /*page variables*/
+    --landingPage-width:100vw;
+    --landingPage-height:100vh;
+    --landingPage-bgcolor-one:#304352;
+    --landingPage-bgcolor-two:#d7d2cc;
+    --landingPage-color:white;
+    /*button varaiables*/
+    --landingPage-btn-height:15vh;
+    --landingPage-btn-width:15vw;
+    --landingPage-btn-oldStudent-color:white;
+    --landingPage-btn-newRegistration-color:rgb(26, 25, 25);
+    --landingPage-btn-oldStudent-bgcolor-one:#fceabb;
+    --landingPage-btn-oldStudent-bgcolor-two:#f8b500;
+    --landingPage-btn-newRegistration-bgcolor-one:#ee0979;
+    --landingPage-btn-newRegistration-bgcolor-two:#ff6a00;
+    
+    /*font sizes*/
+    --landingPage-font-size:90px
+}
+/*general*/
+button{
+    border: none;
+}
+
+
+/*dimensions*/
+
+.landingDiv{
+    width: var(--landingPage-width);
+    min-height: var(--landingPage-height);
+}
+
+.oldStudentBtn{
+    width: var(--landingPage-btn-width);
+    height: var(--landingPage-btn-height);
+}
+
+.newRegistrationBtn{
+    width: var(--landingPage-btn-width);
+    height: var(--landingPage-btn-height);
+}
+
+
+/*colors*/
+.landingDiv{
+    background-image: linear-gradient(45deg, var(--landingPage-bgcolor-one),var(--landingPage-bgcolor-two)) ;
+    color: var(--landingPage-color);
+}
+.oldStudentBtn{
+    background-image: linear-gradient(45deg, var(--landingPage-btn-oldStudent-bgcolor-one), var(--landingPage-btn-oldStudent-bgcolor-two));
+    color: var(--landingPage-btn-oldStudent-color);
+}
+.newRegistrationBtn{
+    background-image: linear-gradient(135deg, var(--landingPage-btn-newRegistration-bgcolor-one),var(--landingPage-btn-newRegistration-bgcolor-two));
+    color: var(--landingPage-btn-newRegistation-color);
+    
+}
+.landingPageButtonDiv{
+    margin-top: 15%;
+}
+
+/*Properties*/
+.landingPageButtonDiv{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+
+/*Features*/
+
+.oldStudentBtn:hover{
+    cursor: pointer;
+}
+.newRegistrationBtn:hover{
+    cursor: pointer;
+}
+
+/*styles font*/
+
+.oldStudentBtn{
+    font-family: 'Rubik Iso', cursive;;
+    font-size: var(--landingPage-font-size);
+}
+.newRegistrationBtn{
+    font-family: 'Rubik Iso', cursive;
+    font-size: var(--landingPage-font-size);
+        
+
+}

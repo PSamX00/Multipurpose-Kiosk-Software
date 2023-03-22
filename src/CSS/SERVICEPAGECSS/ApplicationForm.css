@@ -1,0 +1,55 @@
+:root{
+    --ApplicatonForm-margin-top:30px;
+    --ApplicationForm-margin-left:20px;
+    --ApplicationForm-body-height:450px;
+    --ApplicationForm-margin-left-subject: 100px;
+}
+
+
+/*Dimensions*/
+.applicationFormBody{
+    height: var(--ApplicationForm-body-height);
+
+}
+
+
+
+/*Positioning*/
+
+.applicationFormSalutationAndDate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.applicationFormSalutation{
+    margin-top: var(--ApplicatonForm-margin-top);
+    margin-left: var(--ApplicationForm-margin-left);
+    text-align: left;
+    
+}
+.applicationFormSubject{
+    margin-top: var(--ApplicatonForm-margin-top);
+    margin-left: var(--ApplicationForm-margin-left-subject);
+    text-align: left;
+    
+}
+.applicationFormStart{
+    text-align: left;
+    margin-top: var(--ApplicatonForm-margin-top);
+    margin-left: var(--ApplicationForm-margin-left);
+}
+.applicationFormDate{
+    text-align:right ;
+}
+.applicationFormEnd{
+    text-align: left;
+}
+
+/*styling*/
+.applicationFormEnd{
+    line-height: 0.5;
+}
+.applicationFormSalutation{
+    line-height: 0.5;
+
+}

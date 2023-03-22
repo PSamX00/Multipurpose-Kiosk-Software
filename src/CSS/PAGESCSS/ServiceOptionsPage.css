@@ -1,0 +1,40 @@
+:root{
+    /*Service Page Div Variables*/
+    --serviePage-Div-height : 100vh;
+    /*Service Page Inner Div*/
+    --servicePage-Inner-Div-Height:70vh;
+    --servicePage-Inner-Div-Width:90vw;
+    /*serviceSelectionButton*/
+    --serviceSelectionButton-height:100px;
+    --serviceSelectionButton-width:300px;
+}
+
+/*Dimensions*/
+.oldStudentServicePageDiv{
+    min-height: var(--serviePage-Div-height);
+   
+
+}
+.oldStudentServicePageInnerDiv{
+    min-height: var(--servicePage-Inner-Div-Height);
+    width: var(--servicePage-Inner-Div-Width);
+}
+.serviceSelectionButton{
+    width: var(--serviceSelectionButton-width);
+    height: var(--serviceSelectionButton-height);
+}
+
+/*Positioning*/
+.oldStudentServicePageDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oldStudentServicePageInnerDiv{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

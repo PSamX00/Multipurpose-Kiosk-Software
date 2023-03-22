@@ -1,0 +1,60 @@
+:root{
+    --NOCTable-Image-Width:87%;
+    --NOC-Page-Margins:5%;
+
+    --NOC-Page-Font-Size:22px;
+}
+
+
+
+.NOCMotherContainer{
+    padding: 7% 0 ;
+    font-size: var(--NOC-Page-Font-Size);
+}
+
+.NOCTable1Image{
+ width: var(--NOCTable-Image-Width);
+ 
+ /*Positioning*/
+
+ margin-top: var(--NOC-Page-Margins);
+ margin-left: 50%;
+ transform: translateX(-50%);
+}
+
+
+
+.NOCTable2Image{
+ width: var(--NOCTable-Image-Width);
+
+ /*Positioning*/
+
+ margin-top: var(--NOC-Page-Margins);
+ margin-left: 50%;
+ transform: translateX(-50%);
+}
+
+/*Positioning and Styling*/
+.NOCMotherContainer{
+    text-align: left;
+}
+
+.NOCMotherContainer h1{
+    text-align: center;
+  
+
+}
+.NOCMotherContainer h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.RegistrarSignatureDash{
+    margin-top: var(--NOC-Page-Margins);
+  text-align: right;}
+
+.StudentRegistrarSignature{
+    margin-top: var(--NOC-Page-Margins);
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}

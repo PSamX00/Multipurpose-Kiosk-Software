@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*Dimensions*/
+.emptyDiv{
+    width: 100vw;
+    height: 30px;
+    background-color: black;
+}
+
+/*positioning*/
+.LeaveFormMotherContainer h3{
+    margin-top: 20px;
+}
+.leaveformLastDiv{
+    margin-top: 20px;
+}
+.leaveformBody{
+    margin-top: 30px ;
+    margin-left: 30px;
+    line-height: 1.8;
+}
+
+.leaveFormBodyDeclration{
+    line-height: 1.8;
+    margin-left: 30px;
+}
+
+.salutationDivOne{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.salutationDiv{
+    text-align: left;
+    margin-left: 70px;
+}
+.leaveformLastDiv{
+    margin-top: 50px;
+}
+.leaveFormTable{
+    margin-left: 50px;
+}
+.leaveFormSecondPageMotherContainer{
+    margin-top: 160px;
+}
+
+.OfficeCopyLeaveForm{
+    margin-top: 80px;
+}
+.OfficeCopyLeaveForm h1,h3{
+    text-decoration: underline;
+}
+
+.StudentsCopyLeaveForm h1,h3{
+    text-decoration: underline;
+}
+.SecurityGateCopyLeaveForm h1,h3{
+    text-decoration: underline;
+}
+.SecurityGateCopyLeaveFormWardenSignature{
+    margin-top: 20px;
+}
+
+.StudentsCopyLeaveFormBody{
+    text-align: left;
+}
+.StudentsCopyLeaveFormSignature{
+    text-align: left;
+}
+.StudentsCopyLeaveFormDeclration{
+    text-align: left;
+}
+.StudentsCopyLeaveFormSignatureParents{
+    text-align: left;
+}
+.SecurityGateCopyLeaveFormBody{
+    text-align: left;
+}
+
+.SecurityGateCopyLeaveFormWardenSignature
+{
+    text-align: right;
+
+}
+.StudentCopyText{
+    text-align: right;
+}
+.SecurityGateCopy{
+    text-align: right;
+}
+.OffcieCopyText{
+    text-align: right;
+}
+.LeaveFormMotherContainer h3{
+    text-decoration: underline;
+}
+.StudentsCopyLeaveFormBody{
+    line-height: 1.8;
+}
+.OfficeCopyLeaveFormBody{
+    line-height: 1.8;
+}
+/*Styling*/
+
+
+.leaveFormTable{
+    width: 20%;
+    margin-left: 50px;
+}
+.leaveformLastDiv{
+    display: flex;
+    justify-content: space-between;
+
+}
+.leaveformSignatureForm{
+    width: 45%;
+    text-align: left;
+}
+
+.studentYearInformation{
+    padding:0;
+    text-align: left;
+    margin-left: 500px;
+}
+
+
+.studentYearInformation{
+    width: 45%;
+
+}
+/*text-align*/
+.leaveFormBodyDeclration{
+    text-align: left;
+}
+.leaveformBody
+{
+    text-align: left;
+}
+.SalutationLeaveFormBody{
+    text-align: left;
+}
+.approvalSectionDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.OfficeCopyLeaveFormBody{
+    text-align: left;
+}
+
+
+.StudentsCopyLeaveFormBody{
+    text-align: left;
+}
+.StudentsCopyLeaveFormSignature{
+    text-align: left;
+}
+.StudentsCopyLeaveFormDeclration{
+    text-align: left;
+}
+.StudentsCopyLeaveFormSignatureParents{
+    text-align: left;
+}
+.SecurityGateCopyLeaveFormBody{
+    text-align: left;
+}
+
+.SecurityGateCopyLeaveFormWardenSignature
+{
+    text-align: right;
+
+}
+
+
+/*Drawing Line*/
+.line{
+    height: 1px;
+    background-color: black;
+}

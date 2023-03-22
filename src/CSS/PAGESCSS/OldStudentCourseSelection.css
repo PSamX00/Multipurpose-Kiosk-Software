@@ -1,0 +1,50 @@
+:root{
+    /*CourseSelection button div dimensions*/
+    --courseSelectionButton-Height:500px;
+    /*CourseSelection button div colors and styles*/
+    /*CouseSelection button Div Container Dimensions*/
+    --oldStudentCourseSelectionSet1Div-height:500px;
+    --oldStudentCourseSelectionSet1Div-width:100vw;
+
+
+    /*.CourseSelectionOptionsSet dimensions*/
+    --CourseSelectionOptionsSet-height:120px;
+    --CourseSelectionOptionsSet-width:300px
+}
+
+
+
+/*Dimensions*/
+
+.oldStudentCourseSelectionButtonDiv{
+    height: var(--courseSelectionButton-Height);
+    padding: 20px;
+}
+.oldStudentCourseSelectionSet1Div{
+    padding: 20px;
+    height: var(--oldStudentCourseSelectionSet1Div-height);
+    width: var(--oldStudentCourseSelectionSet1Div-width);
+}
+
+.CourseSelectionOptionsSet1{
+    height: var(--CourseSelectionOptionsSet-height);
+    width: var(--CourseSelectionOptionsSet-width)
+}
+.CourseSelectionOptionsSet2{
+    height: var(--CourseSelectionOptionsSet-height);
+}
+
+/*Positioning*/
+.oldStudentCourseSelectionButtonDiv{
+    margin-top: 5%;
+    
+    
+}
+
+.oldStudentCourseSelectionSet1Div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+

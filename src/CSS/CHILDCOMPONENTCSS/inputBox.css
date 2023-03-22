@@ -1,0 +1,12 @@
+.inputField{
+    position: relative;
+    width: 20%;
+    padding: 5px;
+    font-size: larger;
+}
+.inputField::placeholder{
+    color: rgb(232, 232, 232);
+}
+.inputField:focus{
+    outline: none;
+}
